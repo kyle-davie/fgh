@@ -1,0 +1,366 @@
+main {
+  overflow: hidden;
+}
+
+
+body, main {
+  min-height: 350vh;
+}
+
+body, main, content {
+  background-color: rgb(134, 134, 134);
+  overflow-x: hidden;
+}
+
+/*sec 1-------------------------------------------------------------*/
+.logo-trans {
+  margin-top: 80px;;
+}
+
+/*sec 2-------------------------------------------------------------*/
+.sec2 {
+  display: flex;
+  margin-top: 25px;
+  text-align: left;
+}
+
+.content-text {
+  width: 300px;
+}
+
+
+
+
+/*sec 2-5-------------------------------------------------------------*/
+.sec2-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 85px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  width: 100vw;
+  padding-top: 10%;
+}
+
+.text a {
+  text-decoration: none;
+  color: black;
+}
+
+.sec2-5 .text {
+  width: 500px;
+  height: 275px;
+}
+
+.sec2-5 img {
+  margin-bottom: 30px;
+}
+
+
+.home, .commercial {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+  height: 805px;
+}
+
+.pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.pic img {
+  border-radius: 7%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+/*sec 3-------------------------------------------------------------*/
+.card {
+  margin-top: 20px;
+}
+
+.card-body {
+  background-color: rgb(27, 27, 27);
+  color: white;
+}
+
+/*sec 4-------------------------------------------------------------*/
+.body-1 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.body-2 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.body-3 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.body-4 button {
+  width: 200px;
+}
+
+.body-4 {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.sec4 {
+  width: 100%;
+  height: 500px;
+  border-radius: 10%;
+  margin-top: 50px;
+  padding: 3%;
+
+}
+
+.sec4 #message {
+  height: 75px;
+}
+.sec4 h1 {
+  text-align: center;
+}
+
+.quote-body .body {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-body .body button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  position: fixed;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  bottom: 0;
+  justify-content: space-between;
+  color: blanchedalmond;
+  background-color: rgb(27, 27, 27);
+  align-items: center;
+  
+}
+footer .favicons {
+  margin-right: 17px;
+}
+/* --------------------- Media Queries --------------------- */
+@media (min-width: 0px) {
+  .sec2-5 {
+    flex-direction: column;
+    box-shadow: none;
+    
+  }
+  .home img, .commercial img {
+    width: 350px;
+    height: 400px;
+    margin-bottom: 80px;
+
+  }
+
+  .home h3, .commercial h3 {
+    width: 300px;
+  }
+
+  .home, .commercial {
+    margin-right: 60px;
+  }
+
+  .commercial img {
+    margin-top: 80px;
+  }
+
+  .sec3 {
+    margin-top: 50px;
+  }
+
+  .sec4 {
+    margin-top: 30px;
+  }
+
+  .sec2-5 p {
+    width: 300px;
+    text-align: center;
+  }
+
+  .sec2-5 .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sec2 {
+    flex-direction: column;
+  }
+  .sec2 h1 {
+    margin-top: 20px;
+  }
+
+
+  
+}
+@media (min-width: 576px) {
+  .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.line-outer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.line {
+  background-color: rgb(34, 34, 34);
+  width: 75vw;
+  height: 1px;
+}
+.sec3 {
+  margin-top: 200px;
+}
+
+.sec4 {
+  margin-top: 100px;
+}
+
+.sec2-5{
+  flex-direction: column;
+}
+  .carousel {
+    order: 2;
+    width: 500px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .carousel img, .slide {
+    border-radius: 7%;
+  }
+  .sec2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+  .content-text{
+    order: 1;
+    width: 80vw;
+    text-align: center;
+  }
+
+  body, main, content {
+    height: 530vh;
+  }
+
+@media (min-width: 768px) {
+  .sec2 {
+    flex-direction: row;
+    width: 750px;
+    margin-bottom: 75px;
+  }
+  .sec3 {
+    display: flex;
+  }
+  body, main, content {
+    height: 485vh;
+  }
+
+  .commercial img {
+    margin-top: 200px;
+  }
+
+  .commercial .text {
+    margin-top: 100px;
+  }
+
+  .sec2-5 {
+    margin-top: 0px;
+  }
+
+  .sec2-5 img {
+    width: 700px;
+    height: 600px;
+  }
+
+  .sec2-5 p {
+    width: 600px;
+  }
+
+  .pic {
+    height: 620px;
+  }
+  .top {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    width: 350px;
+  }
+  .carousel {
+    width: 175%;
+    margin-left: 60px;
+  }
+  .content-text {
+    margin-top: 100px;
+    width: 1000px;
+  }
+  body, main {
+    height: 570vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sec3 {
+    flex-direction: row;
+  }
+  .top {
+    flex-direction: row;
+  }
+  .commercial .text {
+    margin-top: 0px;
+  }
+
+  .bottom {
+    flex-direction: row;
+  }
+  .card {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .sec2-5 {
+    flex-direction: row;
+  }
+  .commercial img {
+    margin-top: 0px;
+  }
+
+  .sec4 {
+    margin-top: 150px;
+  }
+  body, main {
+    height: 400vh;
+  }
+
+}
+

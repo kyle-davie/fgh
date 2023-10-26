@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <title>Midterm</title>
+  <style>
+    footer .favicons {
+  margin-right: 17px;
+}
+
+main {
+  height: 200vh;
+}
+
+
+    footer {
+  position: fixed;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  bottom: 0;
+  justify-content: space-between;
+  color: blanchedalmond;
+  background-color: rgb(27, 27, 27);
+  align-items: center;
+}
+
+
+    .commercial-box, .residential-box  {height: 500px; width: 500px; outline: 1px solid grey; margin-top: 180px;}
+    .commercial-box {margin-left: 170px}
+    .residential-box {margin-right: 170px}
+    .top {
+      height: 800px;
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .bottom .head {
+      background-color: rgb(27, 27, 27);
+      color: white;
+      margin-bottom: 10px;
+    }
+    .bottom .body {
+      height: 800px;
+      text-align: center;
+      color: rgb(0, 0, 0);
+    }
+
+    .bottom .body p {
+      margin-top: 10px;
+      background-color: rgb(27, 27, 27);
+      color: white;
+    }
+
+    .blinds, .shades, .shutters {
+      height: 680px;
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      align-content: start;
+    }
+
+    .shutters p {
+      height: 120px;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body fixed-top" data-bs-theme="dark">
+      <div class="container-fluid col-11">
+        <a class="navbar-brand col-7 col-xl-8 col-xxl-9" href="index.html">
+          <img src="images/logo transparent small.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top solarlink">
+          SolarViewDesigns.com
+        </a>
+        <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar">
+            <li class="nav-item">
+              <a  class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active" aria-current="page" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="commercial.html">Commercial</a></li>
+                <li><a class="dropdown-item" href="residential.html">Residential</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a  class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="content">
+
+      <div class="top">
+        <div class="commercial-box">
+          <div class="head"><a href="commercial.html"><h1 class="text-center mt-4">Commercial</h1></a></div>
+          <div class="body"></div>
+        </div>
+        <div class="residential-box">
+          <div class="head"><a href="residential.html"><h1 class="text-center mt-4">Residential</h1></a></div>
+          <div class="body"></div>
+        </div>
+      </div> <!--Commercial and Residential div-->
+      <div class="bottom">
+        <div class="blinds"  >
+          <div class="head"><h1 class="text-center mt-3 mb-3">Blinds</h1></div>
+          <div class="body"><img style="height: 600px; width: 500px;" src="images/blinds.webp" alt="blinds">
+          <p>Our shutters deliver precise light control at the tip of your fingers, with easy-to-operate slats crafted from a range of high-quality materials. 
+            Whether you're looking for the high-end, natural beauty of wood or the durable versatility of aluminum and vinyl, there's a solution for every environment,
+             style, and budget.</p>
+          </div>
+    </div>
+        <div class="shades"  >
+          <div class="head"><h1 class="text-center mt-3 mb-3">Shades</h1></div>
+          <div class="body"><img style="height: 600px; width: 500px;" src="images/shades.jpg" alt="shades">
+          <p>Shades blend form and function to deliver superior benefits and a variety of solutions for every home. 
+            Choose from a wide selection of styles that offer precise light control, easy operation, and protection from excess heat,
+             glare, and UV rays—all available in a wide range of colors and materials. </p>
+        </div>
+    </div>
+        <div class="shutters">
+          <div class="head"><h1 class="text-center mt-3 mb-3">Shutters</h1></div>
+          <div class="body"><img style="height: 600px; width: 500px;" src="images/shutters.webp" alt="shutters">
+            <p>From cordless to motorized, faux wood to aluminum, we have a full line that can fit any budget.</p>
+          </div>
+    </div>
+      </div> <!--Blinds, Shades, Shutters-->
+    </div>
+  </main>
+  <footer>
+    <div class="div"></div>
+    <p>&copy;2023 SolarViewDesign.com</p>
+    <div class="favicons">
+      <a href="https://www.facebook.com/SolarViewDesign/"><img src="images/facebook-logo-2019.png" alt="" width="35px" height="35px" ></a>
+      <a href="mailto:solarviewdesign.com"><img src="images/logo transparent small.png" alt=""               width="35px" height="35px" ></a>
+    </div>
+  </footer>
+</body>
+</html>
